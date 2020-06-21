@@ -14,7 +14,7 @@ Install PeeWee on your local computer if not installed, and launch virtual envir
 
 ## Creating a New note and other choices of the application
 
-run notes. py
+```run notes. py```
 
 Choices are:
 
@@ -31,11 +31,13 @@ q) Press 'q' to quit menu and go back to main menu at any time.
 
 ## Deployment
 
+Deployed through Terminal via Python
+
 ## Built With
 
-Python
-PeeWee
-PostgresQL
+1. Python
+2. PeeWee
+3. SQL
 
 ## Version 
 
