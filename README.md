@@ -14,7 +14,7 @@ Install PeeWee on your local computer if not installed, and launch virtual envir
 
 ## Creating a New note and other choices of the application
 
-```run notes. py```
+```run python notes.py```
 
 Choices are:
 
