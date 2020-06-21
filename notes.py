@@ -35,7 +35,7 @@ def initialize():
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
-    
+
 
 def menu_loop():
     """Show the Menu"""
@@ -55,16 +55,16 @@ def menu_loop():
 # def add_title():
 #     """Add a Title."""
 #     print("Enter your Title.")
-#     title_data = sys.stdin.read().strip()
+#     data = sys.stdin.read().strip()
 
-#     if title_data:
-#         if input('Save Title? [Yn] ').lower() != 'n':
-#             Note.create(title=title_data)
+#     if data:
+#         if input('Save Title? [Yn] ').lower() == 'y':
+#             Note.create(title=data)
 #             print("Saved successfully!")
 
 
 def add_note():
-    """Add a Note."""
+    """Add a New Note."""
     print("Enter your Note. Press Ctrl+D when finished.")
     data = sys.stdin.read().strip()
 
@@ -100,7 +100,7 @@ def view_notes(search_query=None):
 
 
 def search_notes():
-    """Search notes for a string."""
+    """Search notes."""
     view_notes(input('Search query: '))
 
 def delete_note(note):
