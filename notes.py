@@ -47,16 +47,6 @@ def menu_loop():
             clear()
             menu[choice]()
 
-# def add_title():
-#     """Add a Title."""
-#     print("Enter your Title.")
-#     data = sys.stdin.read().strip()
-
-#     if data:
-#         if input('Save Title? [Yn] ').lower() == 'y':
-#             Note.create(title=data)
-#             print("Saved successfully!")
-
 
 def add_note():
     """Add a New Note."""
@@ -117,3 +107,14 @@ if __name__ == '__main__':
      initialize()
      menu_loop()
 
+
+
+# def add_title():
+#     """Add a Title."""
+#     print("Enter your Title.")
+#     data = sys.stdin.read().strip()
+
+#     if data:
+#         if input('Save Title? [Yn] ').lower() == 'y':
+#             Note.create(title=data)
+#             print("Saved successfully!")

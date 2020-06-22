@@ -1,4 +1,4 @@
-# Python-Command-Line-Application
+# Python-Command-Line-Application - Simple Note Taker to Help you Take Notes
 
 ***
 
